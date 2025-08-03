@@ -1,15 +1,16 @@
-#include <Adafruit_NeoPixel.h>  //1.12.3
+// Ardiuno IDE 2.3.2 //  flash 4 Mb  // Partition    Huge APP
+#include <Adafruit_NeoPixel.h>  // https://github.com/adafruit/Adafruit_NeoPixel  1.12.3
 #include <ArduinoJson.h>        // https://github.com/bblanchon/ArduinoJson   6.18.5
 #include <HTTPClient.h>         // In-built
 #include <time.h>               // In-built
 #include <EEPROM.h>
 
-#include "GyverButton.h"   //3.8
+#include "GyverButton.h"   //3.8   https://github.com/GyverLibs/GyverButton
 #include <WiFiManager.h>   //2.0.17
-#include <GyverNTP.h>      //1.3.1
-#include <RtcDS1302.h>     //1.4.1
+#include <GyverNTP.h>      //1.3.1  https://github.com/GyverLibs/GyverNTP
+#include <RtcDS1302.h>     //2.4.1  //https://github.com/Makuna/Rtc/tree/master
 #include <Adafruit_GFX.h>  // Core graphics library
-#include <Arduino_ST7789_Fast.h>
+#include <Arduino_ST7789_Fast.h>  // https://github.com/cbm80amiga/Arduino_ST7789_Fast
 #include <SPI.h>
 #include "pics.h"
 #include "pins.h"
